@@ -1,0 +1,12 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { width: 100%; min-height: 100vh; background: #0F0F1A; }
+#root { width: 100%; }
+
+/* Dark scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #1A1A2E; }
+::-webkit-scrollbar-thumb { background: #3A3A5C; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #7C3AED; }
+
+/* Dark select dropdown options */
+option { background: #1A1A2E; color: #E2E8F0; }
